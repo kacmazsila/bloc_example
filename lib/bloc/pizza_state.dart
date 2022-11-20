@@ -14,5 +14,5 @@ class PizzaLoaded extends PizzaState {
 
   const PizzaLoaded({required this.pizzas});
 
-  List<Object> get propd => [pizzas];
+  List<Object> get props => [pizzas];
 }
